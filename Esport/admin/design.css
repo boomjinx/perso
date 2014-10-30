@@ -1,0 +1,189 @@
+*{
+	margin:0 auto;
+	padding:0;
+}
+
+body{
+	background-color: black;
+	background: url(http://localhost/Esport/dota.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: black;
+}
+
+#shadow{
+	width: 1020px;
+	background-color: lightblue;
+	box-shadow: 0px 0px 30px lightblue;
+	padding: 2px;
+}
+
+/*HEADER*/
+
+#header{
+	background-color: blue;
+	width: 1000px;
+	height: 230px;
+	box-shadow: 0px 0px 20px black;
+	margin-top: 10px;
+}
+
+#logohome{
+	float: left;
+	margin: 5px;
+}
+
+#live{
+	width: 300px;
+	height: 80%;
+	margin: 5px;
+	float: left;
+	background-color: yellow;
+}
+
+/*HEADER END*/
+
+
+
+#body{
+	background-color: red;
+	width: 1000px;
+	min-height: 800px;
+	margin-top: 20px;
+	box-shadow: 0px 0px 20px black;
+	border-radius: 10px;
+}
+
+#rightbar{
+	background-color: yellow;
+	float: right;
+	height: 100px;
+	width: 300px;
+	margin: 10px;
+	box-shadow: 0px 0px 20px black;
+	border:0px solid #a1a1a1;
+	border-radius: 10px;
+}
+
+#footer{
+	background-color: orange;
+	width: 1000px;
+	height: 100px;
+	margin-top: 20px;
+	box-shadow: 0px 0px 20px black;
+	margin-bottom: 15px;
+}
+
+.clearboth {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+
+/*MENU*/
+
+#menu{
+	width: 1000px;
+	height: 50px;
+	margin-top: 20px
+}
+
+#nav {
+    font-family: Impact;
+    font-size: 25pt;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#nav a:link,
+#nav a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#nav a {
+    display: block;
+    padding: 6px 8px;
+}
+
+#nav li {
+    float: left;
+    background-color: #480000 ;
+    margin-right: 2px;
+    position: relative;
+    box-shadow: 0px 5px 20px black;
+}
+
+#nav li li{
+    width: 200px;
+    margin-top: 1px;
+}
+
+#nav li:hover {
+    background-color: #000033;
+}
+
+#nav li li:hover {
+    background-color: #757575;
+}  
+
+
+#nav ul ul  {
+    position: absolute;
+    visibility: hidden;
+}
+
+#nav ul ul ul{
+    position: absolute;
+    left: -100%;
+    top: -2px;
+    border: solid 1px transparent;
+} 
+
+#nav li:hover > ul {
+    visibility: visible;
+}
+
+.right-arrow {
+    float: right;
+}
+/*MENU END*/
+
+
+/*LASTNEWS*/
+
+#lastnews{
+	float: left;
+	margin: 25px;
+	height: 95%;
+	width: 63%;
+}
+
+.news{
+	height: 100%;
+	font-family: verdana;
+}
+
+.news img{
+	float: right;
+}
+
+.news p{
+	font-size: 15pt;
+}
+
+.news h1{
+	
+}
+
+.datenews{
+	float: right;
+}
+
+/*LASTNEWS END*/

@@ -1,0 +1,241 @@
+*{
+	margin:0 auto;
+	padding:0.1;
+}
+
+body{
+	background-color: black;
+	background: url(http://localhost/Esport/dota.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: black;
+}
+
+#shadow{
+	width: 1020px;
+	/*background-color: lightblue;
+	box-shadow: 0px 0px 30px lightblue;*/
+	padding: 2px;
+}
+
+/*HEADER*/
+
+#header{
+	width: 1000px;
+	height: 230px;
+	margin-top: 10px;
+	clear: both;
+}
+
+#logohome{
+	float: left;
+	margin: 5px;
+}
+
+/*#live{
+	width: 300px;
+	height: 80%;
+	margin: 5px;
+	float: left;
+	background-color: yellow;
+}*/
+
+/*HEADER END*/
+
+
+
+#main{
+	padding: 10px;
+	background-color: #282828  ;
+	width: 950px;
+	padding: 25px;
+	margin-top: 20px;
+	box-shadow: 0px 0px 20px black;
+	border-radius: 10px;
+}
+
+#footer{
+	background-color: orange;
+	width: 950px;
+	height: 100px;
+	margin-top: 20px;
+	box-shadow: 0px 0px 20px black;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+
+.clearboth {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+
+/*MENU*/
+
+#menu{
+	width: 1000px;
+	height: 50px;
+	margin-top: 20px
+}
+
+#nav {
+    font-family: Impact;
+    font-size: 25pt;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#nav a:link,
+#nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#nav a {
+    display: block;
+    padding: 6px 8px;
+}
+
+#nav li {
+    float: left;
+    background-color: #D8D8D8 ;
+    margin-right: 2px;
+    position: relative;
+    box-shadow: 0px 5px 20px black;
+}
+
+#nav li li{
+    width: 200px;
+    margin-top: 1px;
+}
+
+#nav li:hover {
+    background-color: #A0A0A0;
+}
+
+#nav li li:hover {
+    background-color: #757575;
+}  
+
+
+#nav ul ul  {
+    position: absolute;
+    visibility: hidden;
+}
+
+#nav ul ul ul{
+    position: absolute;
+    left: -100%;
+    top: -2px;
+    border: solid 1px transparent;
+} 
+
+#nav li:hover > ul {
+    visibility: visible;
+}
+
+.right-arrow {
+    float: right;
+}
+/*MENU END*/
+
+/*QUICKNEWS*/
+#quicknews{
+	background-color: yellow;
+	float: right;
+	max-height: 210px;
+	width: 300px;
+	margin: 5px;
+	padding: 10px;
+	box-shadow: 0px 0px 20px black;
+	border:0px solid #a1a1a1;
+	border-radius: 10px;
+}
+/*QUICKNEWS END*/
+
+
+/*LASTNEWS*/
+
+#lastnews{
+	background-color: yellow;
+	float: left;
+	margin: 25px;
+	height: 95%;
+	width: 63%;
+}
+
+.news{
+	width: 100%;
+	font-family: verdana;
+	border: 1px solid black;
+	padding: 5px;
+	background-color: #D8D8D8;
+	border-radius: 5px;
+	box-shadow: 0px 5px 20px black;
+
+}
+.news img{
+	float: right;
+	margin-top: 0px;
+}
+.news p{
+	font-size: 15pt;
+}
+
+.titledate{
+	width: 100%;
+	float: left;
+	/*box-shadow: 0px 5px 20px black;
+	background-color: #800000 ;
+	border-radius: 5px;*/
+}
+
+.title{
+	font-size: 20pt;
+	float: left;
+	width: 64%;
+}
+.contenu{
+	width: 59%;
+	float: left;
+	/*border: 1px solid black;
+	background-color: #680000;
+	box-shadow: 0px 5px 20px black;
+	border-radius: 5px;*/
+}
+
+.datenews{
+	float: right;
+	font-family: verdana;
+	font-size: 15pt;
+	width: 30%;
+}
+
+.info{
+	border-radius: 5px;
+	background-color: #900000  ;
+	box-shadow: 0px 5px 20px black; 
+	clear: both;
+	float: left;
+	font-size: 15pt;
+	width: 90%;
+	margin-top: 5px;
+}
+
+.void{
+	width: 100%;
+	height: 50px;
+	clear: both;
+}
+
+.create{
+	float: right;
+}
+
+/*LASTNEWS END*/
